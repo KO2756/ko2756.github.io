@@ -5,9 +5,9 @@ header{
     display: -webkit-inline-box;
     margin: 0;
     padding-right: 100px;
-    width: 70%;
-    text-align: right;
-    width: 500px;
+    width: 960px;
+    text-align: left;
+    width: 960px;
   margin: 20px auto;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -15,12 +15,15 @@ header{
 }
 
 body {
-    background: #efeee7;
+    background-image: url (".assets/concrete-texture.png");
+    background-color: #efeee7;
     margin: 0 auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 200%; 
+    width: 650px;
+    display: center;
 }
 
 h1 {
@@ -69,17 +72,28 @@ li {
     
 
 }
-
-#contact-info ul li {
-    width: 30%;
-    float: left;
-    margin-left: 10px;
+section {
+    width: 270px;
+    background: #ffffff;
    
-    text-decoration: none;
-    
-    list-style-type: none;
-    background: #ffffff
+    text-align: center;
+    float: right;
 }
+aside { 
+    position: relative;
+    display: inline-table;
+    margin: 0;
+    
+    width: 960px;
+    text-align: center;
+    width: 270px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    
+}
+
 
 #bio-image,
 #main-bio,
@@ -108,11 +122,7 @@ footer {
     font-size: 15px;
 }
 
-.sidebar .sidebar-heading  {
-    background: #ffffff;
-    
-    display: inline;
-    
+
 }
 
 textarea {
